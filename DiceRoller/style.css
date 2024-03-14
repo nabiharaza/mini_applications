@@ -12,6 +12,11 @@
 
 
 }
+#diceImages{
+    display: flex;
+}
+
+
 #diceImages img{
     display: flex;
     justify-content: center;
