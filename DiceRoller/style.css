@@ -1,0 +1,41 @@
+#container{
+    display : block;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: #98999a;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: #98999a 5px 5px 5px 5px;
+    font-size: 18px;
+
+
+}
+#diceImages img{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+#diceCount{
+    width: 15%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+#resetBtn,
+#rollBtn{
+    width: 15%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #448ee3;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
